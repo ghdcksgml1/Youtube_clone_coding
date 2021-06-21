@@ -8,7 +8,7 @@ moreBtn.addEventListener('click', () => {
 
 const active = document.querySelectorAll('.info .actions i');
 
-for(let i=0;i<5;i++){
+for(let i=0;i<2;i++){
     active[i].addEventListener('click', function(){
         active[i].classList.toggle('active');
     });

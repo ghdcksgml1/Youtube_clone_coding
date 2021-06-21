@@ -150,8 +150,10 @@ header .icons .fa-search{
     border-radius: 50%;
 }
 
-.channel .metadata .info .name{
+.channel .metadata .info .name a{
     font-size:var(--font-medium);
+    color:var(--black_color);
+    text-decoration: none;
     margin-left:10px;
 }
 
@@ -204,11 +206,14 @@ header .icons .fa-search{
     display: flex;
     flex-direction: column;
 }
-.upNext .item .info .title{
+.upNext .item .info .title a{
     font-size:var(--font-medium);
+    text-decoration: none;
+    color:var(--black_color);
 }
-.upNext .item .info .name{
+.upNext .item .info .name a{
     font-size: var(--font-small);
+    text-decoration: none;
     color:var(--grey-dark-color);
     display: -webkit-box;
     -webkit-box-orient: vertical;
