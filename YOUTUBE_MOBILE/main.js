@@ -13,3 +13,14 @@ for(let i=0;i<2;i++){
         active[i].classList.toggle('active');
     });
 }
+
+const subscribe = document.querySelector('.infoAndupNext .channel .subscribe');
+
+subscribe.addEventListener('click', function(){
+    if(subscribe.innerText==="SUBSCRIBE"){
+        subscribe.innerText="SUBSCRIBED";
+    }
+    else if(subscribe.innerText==="SUBSCRIBED"){
+        subscribe.innerText="SUBSCRIBE";
+   }
+});

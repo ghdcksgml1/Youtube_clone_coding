@@ -29,7 +29,9 @@ body{
 ul{
     list-style: none;
 }
-
+a{
+    text-decoration: none;
+}
 button,
 button:focus{
     border:none;
@@ -51,6 +53,7 @@ header .logo {
 }
 header .logo .title{
     font-weight: bold;
+    color:var(--black_color);
 }
 header .logo i{
     color:var(--red-color);
@@ -153,7 +156,6 @@ header .icons .fa-search{
 .channel .metadata .info .name a{
     font-size:var(--font-medium);
     color:var(--black_color);
-    text-decoration: none;
     margin-left:10px;
 }
 
@@ -208,12 +210,10 @@ header .icons .fa-search{
 }
 .upNext .item .info .title a{
     font-size:var(--font-medium);
-    text-decoration: none;
     color:var(--black_color);
 }
 .upNext .item .info .name a{
     font-size: var(--font-small);
-    text-decoration: none;
     color:var(--grey-dark-color);
     display: -webkit-box;
     -webkit-box-orient: vertical;
